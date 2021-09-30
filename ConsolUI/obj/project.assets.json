@@ -1,0 +1,132 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "DataAccess": "1.0.0",
+          "Entitiy": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
+        }
+      },
+      "DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Entitiy": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.dll": {}
+        }
+      },
+      "Entitiy/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Entitiy.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entitiy.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Business/1.0.0": {
+      "type": "project",
+      "path": "../Business/Business.csproj",
+      "msbuildProject": "../Business/Business.csproj"
+    },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess/DataAccess.csproj",
+      "msbuildProject": "../DataAccess/DataAccess.csproj"
+    },
+    "Entitiy/1.0.0": {
+      "type": "project",
+      "path": "../Entitiy/Entitiy.csproj",
+      "msbuildProject": "../Entitiy/Entitiy.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Business >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\furkan3\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Yaptıklarım\\c#\\ReCapProject\\ConsolUI\\ConsolUI.csproj",
+      "projectName": "ConsolUI",
+      "projectPath": "E:\\Yaptıklarım\\c#\\ReCapProject\\ConsolUI\\ConsolUI.csproj",
+      "packagesPath": "C:\\Users\\furkan3\\.nuget\\packages\\",
+      "outputPath": "E:\\Yaptıklarım\\c#\\ReCapProject\\ConsolUI\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\furkan3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "E:\\Yaptıklarım\\c#\\ReCapProject\\Business\\Business.csproj": {
+              "projectPath": "E:\\Yaptıklarım\\c#\\ReCapProject\\Business\\Business.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

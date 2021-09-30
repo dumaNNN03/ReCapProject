@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ConsolUI/1.0.0": {
+        "dependencies": {
+          "Business": "1.0.0"
+        },
+        "runtime": {
+          "ConsolUI.dll": {}
+        }
+      },
+      "Business/1.0.0": {
+        "dependencies": {
+          "DataAccess": "1.0.0",
+          "Entitiy": "1.0.0"
+        },
+        "runtime": {
+          "Business.dll": {}
+        }
+      },
+      "DataAccess/1.0.0": {
+        "dependencies": {
+          "Entitiy": "1.0.0"
+        },
+        "runtime": {
+          "DataAccess.dll": {}
+        }
+      },
+      "Entitiy/1.0.0": {
+        "runtime": {
+          "Entitiy.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsolUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Entitiy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

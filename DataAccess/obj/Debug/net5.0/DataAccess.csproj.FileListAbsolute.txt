@@ -1,0 +1,15 @@
+E:\Yaptıklarım\c#\ReCapProject\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+E:\Yaptıklarım\c#\ReCapProject\DataAccess\bin\Debug\net5.0\DataAccess.dll
+E:\Yaptıklarım\c#\ReCapProject\DataAccess\bin\Debug\net5.0\ref\DataAccess.dll
+E:\Yaptıklarım\c#\ReCapProject\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+E:\Yaptıklarım\c#\ReCapProject\DataAccess\bin\Debug\net5.0\Entitiy.dll
+E:\Yaptıklarım\c#\ReCapProject\DataAccess\bin\Debug\net5.0\Entitiy.pdb
+E:\Yaptıklarım\c#\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.csprojAssemblyReference.cache
+E:\Yaptıklarım\c#\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\Yaptıklarım\c#\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+E:\Yaptıklarım\c#\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+E:\Yaptıklarım\c#\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+E:\Yaptıklarım\c#\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete
+E:\Yaptıklarım\c#\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.dll
+E:\Yaptıklarım\c#\ReCapProject\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+E:\Yaptıklarım\c#\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.pdb

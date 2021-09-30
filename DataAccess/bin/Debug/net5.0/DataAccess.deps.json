@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "DataAccess/1.0.0": {
+        "dependencies": {
+          "Entitiy": "1.0.0"
+        },
+        "runtime": {
+          "DataAccess.dll": {}
+        }
+      },
+      "Entitiy/1.0.0": {
+        "runtime": {
+          "Entitiy.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Entitiy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

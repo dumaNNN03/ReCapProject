@@ -1,0 +1,12 @@
+E:\Yaptıklarım\c#\ReCapProject\Entitiy\bin\Debug\net5.0\Entitiy.deps.json
+E:\Yaptıklarım\c#\ReCapProject\Entitiy\bin\Debug\net5.0\Entitiy.dll
+E:\Yaptıklarım\c#\ReCapProject\Entitiy\bin\Debug\net5.0\ref\Entitiy.dll
+E:\Yaptıklarım\c#\ReCapProject\Entitiy\bin\Debug\net5.0\Entitiy.pdb
+E:\Yaptıklarım\c#\ReCapProject\Entitiy\obj\Debug\net5.0\Entitiy.csprojAssemblyReference.cache
+E:\Yaptıklarım\c#\ReCapProject\Entitiy\obj\Debug\net5.0\Entitiy.GeneratedMSBuildEditorConfig.editorconfig
+E:\Yaptıklarım\c#\ReCapProject\Entitiy\obj\Debug\net5.0\Entitiy.AssemblyInfoInputs.cache
+E:\Yaptıklarım\c#\ReCapProject\Entitiy\obj\Debug\net5.0\Entitiy.AssemblyInfo.cs
+E:\Yaptıklarım\c#\ReCapProject\Entitiy\obj\Debug\net5.0\Entitiy.csproj.CoreCompileInputs.cache
+E:\Yaptıklarım\c#\ReCapProject\Entitiy\obj\Debug\net5.0\Entitiy.dll
+E:\Yaptıklarım\c#\ReCapProject\Entitiy\obj\Debug\net5.0\ref\Entitiy.dll
+E:\Yaptıklarım\c#\ReCapProject\Entitiy\obj\Debug\net5.0\Entitiy.pdb
