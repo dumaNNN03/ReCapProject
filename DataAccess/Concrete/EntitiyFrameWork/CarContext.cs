@@ -1,4 +1,5 @@
 ﻿using Entitiy.Concrete;
+using Entity.Concrete;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -20,6 +21,8 @@ namespace DataAccess.Concrete.EntitiyFrameWork
         public DbSet<Color> Color { get; set; }
 
         public DbSet<Brand> Brand { get; set; }
+
+
 
     }
 }

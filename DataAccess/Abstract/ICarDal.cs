@@ -1,4 +1,6 @@
-﻿using Entitiy.Concrete;
+﻿using Core.DataAccess;
+using Entitiy.Concrete;
+using Entitiy.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,8 +9,8 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Abstract
 {
-    public interface ICarDal : IEntitiyRepository<Car>
+    public interface ICarDal : IEntityRepository<Car>
     {
-
+        public List<CarDetailDto> GetProductDetail();
     }
 }
