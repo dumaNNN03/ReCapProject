@@ -3,6 +3,7 @@ using Entitiy.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -22,36 +23,29 @@ namespace DataAccess.Concrete.InMemoryCarDal
             };
         }
 
-        public void Add(Car car)
+        public void Add(Car entitiy)
         {
-            _cars.Add(car);
+            throw new NotImplementedException();
         }
 
-        public void Delete(int Id)
+        public void Delete(Car entitiy)
         {
-            Car carToDelete = _cars.SingleOrDefault(c => c.Id == Id);
-            _cars.Remove(carToDelete);
+            throw new NotImplementedException();
         }
 
-        public List<Car> GetAll()
+        public Car Get(Expression<Func<Car, bool>> filter)
         {
-            return _cars;
+            throw new NotImplementedException();
         }
 
-        public List<Car> GetById(int Id)
+        public List<Car> GetAll(Expression<Func<Car, bool>> filter = null)
         {
-
-            return _cars.Where(c => c.Id == Id).ToList();
+            throw new NotImplementedException();
         }
 
-        public void Update(Car car)
+        public void Update(Car entitiy)
         {
-            Car carToUpdate = _cars.SingleOrDefault(c => c.Id == car.Id);
-            carToUpdate.BrandId = car.BrandId;
-            carToUpdate.ColorId = car.ColorId;
-            carToUpdate.ModelYear = car.ModelYear;
-            carToUpdate.DailyPrice = car.DailyPrice;
-            carToUpdate.Description = car.Description;
+            throw new NotImplementedException();
         }
     }
 }

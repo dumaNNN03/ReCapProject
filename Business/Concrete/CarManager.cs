@@ -16,32 +16,27 @@ namespace Business.Concrete
         {
             _carDal = carDal;
         }
+
         public void Add(Car car)
         {
-            _carDal.Add(car);
-            Console.WriteLine("Ekleme Başarılı");
+            if(car.DailyPrice > 0)
+            {
+                _carDal.Add(car);
+            }
+            else
+            {
+                Console.WriteLine("Günlük Kiralama Bedeli 0 dan büyük olmalıdır.");
+            }
         }
 
-        public void Delete(int Id)
+        public List<Car> GetCarByBrandId(int Id)
         {
-            _carDal.Delete(Id);
-            Console.WriteLine("Silme Başarılı");
+           return _carDal.GetAll(c => c.BrandId == Id);
         }
 
-        public List<Car> GetAll()
+        public List<Car> GetCarByColorId(int Id)
         {
-            return _carDal.GetAll();
-        }
-
-        public List<Car> GetById(int Id)
-        {
-            return _carDal.GetById(Id);
-        }
-
-        public void Update(Car car)
-        {
-            _carDal.Update(car);
-            Console.WriteLine("Güncelleme Başarılı");
+            return _carDal.GetAll(c => c.ColorId == Id);
         }
     }
 }

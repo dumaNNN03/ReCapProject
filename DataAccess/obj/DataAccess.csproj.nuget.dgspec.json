@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Yaptıklarım\\c#\\ReCapProject\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "E:\\Yaptıklarım\\c#\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Yaptıklarım\\c#\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "E:\\Yaptıklarım\\c#\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\furkan3\\.nuget\\packages\\",
-        "outputPath": "E:\\Yaptıklarım\\c#\\ReCapProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Yaptıklarım\\c#\\ReCapProject\\Entitiy\\Entitiy.csproj": {
-                "projectPath": "E:\\Yaptıklarım\\c#\\ReCapProject\\Entitiy\\Entitiy.csproj"
+              "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj": {
+                "projectPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj"
               }
             }
           }
@@ -47,6 +47,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -66,14 +72,14 @@
         }
       }
     },
-    "E:\\Yaptıklarım\\c#\\ReCapProject\\Entitiy\\Entitiy.csproj": {
+    "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Yaptıklarım\\c#\\ReCapProject\\Entitiy\\Entitiy.csproj",
+        "projectUniqueName": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj",
         "projectName": "Entitiy",
-        "projectPath": "E:\\Yaptıklarım\\c#\\ReCapProject\\Entitiy\\Entitiy.csproj",
+        "projectPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj",
         "packagesPath": "C:\\Users\\furkan3\\.nuget\\packages\\",
-        "outputPath": "E:\\Yaptıklarım\\c#\\ReCapProject\\Entitiy\\obj\\",
+        "outputPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Entitiy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
