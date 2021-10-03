@@ -16,7 +16,11 @@ namespace ConsolUI
             //Brandmethod();
             //Usermethod();
             //Customermethod();
-
+            RentalManager rentalManager = new RentalManager(new EfRentalDal());
+            Rental rental = new Rental() {CarId=5, CustomerId=2, RentDate=DateTime.Now, ReturnDate=null };
+            var result = rentalManager.Add(rental);
+            Console.WriteLine(result.Message);
+            
         }
 
         private static void Customermethod()

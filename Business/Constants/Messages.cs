@@ -14,5 +14,7 @@ namespace Business.Constants
         public static string NameError = "İsim en az 2 karakterli olmalıdır.";
         public static string PriceError = "Günlük Fiyat 0 dan büyük olmak zorundadır.";
         public static string Listed = "Listeleme Başarılı";
+        public static string SuccessRent = "Kiralama Başarılı";
+        public static string ErrorRent = "Kiralama Başarısız";
     }
 }

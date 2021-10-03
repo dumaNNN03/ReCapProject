@@ -14,9 +14,28 @@ namespace Business.Concrete
     public class RentalManager : IRentalService
     {
         IRentalDal _rentalDal;
+        public RentalManager(IRentalDal rentalDal)
+        {
+            _rentalDal = rentalDal;
+        }
         public IResult Add(Rental rental)
         {
-            throw new NotImplementedException();
+            if (_rentalDal.Get(r=>r.CarId==rental.CarId) == null)
+            {
+                _rentalDal.Add(rental);
+                return new SuccessResult(Messages.SuccessRent);
+            }
+            else
+            {
+                if(_rentalDal.Get(r => r.CarId == rental.CarId).ReturnDate != null)
+                {
+                    _rentalDal.Add(rental);
+                    return new SuccessResult(Messages.SuccessRent);
+                }
+                return new ErrorResult(Messages.ErrorRent);
+            }
+
+            
         }
 
         public IResult Delete(Rental rental)

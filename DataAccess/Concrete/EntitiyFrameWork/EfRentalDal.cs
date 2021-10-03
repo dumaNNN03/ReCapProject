@@ -11,5 +11,6 @@ namespace DataAccess.Concrete.EntitiyFrameWork
 {
     public class EfRentalDal : EfEntityRepositoryBase<Rental, CarContext>,IRentalDal
     {
+
     }
 }
