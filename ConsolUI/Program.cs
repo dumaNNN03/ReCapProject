@@ -40,7 +40,7 @@ namespace ConsolUI
         private static void Carmethod()
         {
             CarManager carManager = new CarManager(new EfCarDal());
-            Car car1 = new Car() { Id = 6, Name = "e5", ColorId = 3, BrandId = 2, DailyPrice = 150, ModelYear = 1990, Description = "Muheteşem" };
+            Car car1 = new Car() {Id =6,Name = "e5", ColorId = 3, BrandId = 2, DailyPrice = 150, ModelYear = 1990, Description = "Muheteşem" };
             //Car car2 = new Car() { Id = 6, Name = "e6", ColorId = 3, BrandId = 1, DailyPrice = 1000, ModelYear = 1996, Description = "Bi Tık İyi" };
             //foreach (var car in carManager.GetCarByColorId(2))
             //{
@@ -59,10 +59,10 @@ namespace ConsolUI
             //{
             //    Console.WriteLine("{0}{1}{2}{3}", car.CarName, car.BrandName, car.ColorName, car.DailyPrice);
             //}
-            var result = carManager.Add(car1);
-            Console.WriteLine(result.Message);
-            var result2 = carManager.GetById(6);
-            Console.WriteLine(result2.Data.Name+" \n "+result2.Message );
+            //var result = carManager.Add(car1);
+            //Console.WriteLine(result.Message);
+            //var result2 = carManager.GetById(6);
+            //Console.WriteLine(result2.Data.Name+" \n "+result2.Message );
             var result3 = carManager.Delete(car1);
             Console.WriteLine(result3.Message);
         }
