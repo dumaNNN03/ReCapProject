@@ -14,7 +14,28 @@ namespace ConsolUI
             //Carmethod();
             //Colormethod();
             //Brandmethod();
+            //Usermethod();
+            //Customermethod();
 
+        }
+
+        private static void Customermethod()
+        {
+            CustomerManager customerManager = new(new EfCustomerDal());
+            var result = customerManager.GetAll();
+            foreach (var customer in result.Data)
+            {
+                Console.WriteLine("UserId = {0} CompanyName = {1}", customer.UserId, customer.CompanyName);
+            }
+            Console.WriteLine(result.Message);
+        }
+
+        private static void Usermethod()
+        {
+            UserManager userManager = new UserManager(new EfUserDal());
+            var result = userManager.GetById(1);
+            Console.WriteLine(result.Data.FirstName);
+            Console.WriteLine(result.Message);
         }
 
         private static void Brandmethod()
