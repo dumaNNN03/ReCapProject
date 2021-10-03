@@ -11,7 +11,7 @@ namespace ConsolUI
     {
         static void Main(string[] args)
         {
-            Carmethod();
+            //Carmethod();
             //Colormethod();
             //Brandmethod();
 
@@ -20,25 +20,27 @@ namespace ConsolUI
         private static void Brandmethod()
         {
             BrandManager brandManager = new(new EfBrandDal());
-            foreach (var brand in brandManager.GetAll())
+            var result = brandManager.GetAll();
+            foreach (var brand in result.Data)
             {
                 Console.WriteLine(brand.Name);
             }
+            Console.WriteLine(result.Message); 
         }
 
         private static void Colormethod()
         {
             ColorManager colorManager = new(new EfColorDal());
-            foreach (var color in colorManager.GetAll())
-            {
-                Console.WriteLine(color.Name);
-            }
+            //foreach (var color in colorManager.GetAll())
+            //{
+            //    Console.WriteLine(color.Name);
+            //}
         }
 
         private static void Carmethod()
         {
             CarManager carManager = new CarManager(new EfCarDal());
-            //Car car1 = new Car() { Id = 6, Name = "e5", ColorId = 3, BrandId = 2, DailyPrice = 150, ModelYear = 1990, Description = "Muheteşem" };
+            Car car1 = new Car() { Id = 6, Name = "e5", ColorId = 3, BrandId = 2, DailyPrice = 150, ModelYear = 1990, Description = "Muheteşem" };
             //Car car2 = new Car() { Id = 6, Name = "e6", ColorId = 3, BrandId = 1, DailyPrice = 1000, ModelYear = 1996, Description = "Bi Tık İyi" };
             //foreach (var car in carManager.GetCarByColorId(2))
             //{
@@ -53,10 +55,16 @@ namespace ConsolUI
             //{
             //    Console.WriteLine("{0}", car.Name);
             //}
-            foreach (var car in carManager.GetCarDetails())
-            {
-                Console.WriteLine("{0}{1}{2}{3}", car.CarName,car.BrandName,car.ColorName,car.DailyPrice);
-            }
+            //foreach (var car in carManager.GetCarDetails())
+            //{
+            //    Console.WriteLine("{0}{1}{2}{3}", car.CarName, car.BrandName, car.ColorName, car.DailyPrice);
+            //}
+            var result = carManager.Add(car1);
+            Console.WriteLine(result.Message);
+            var result2 = carManager.GetById(6);
+            Console.WriteLine(result2.Data.Name+" \n "+result2.Message );
+            var result3 = carManager.Delete(car1);
+            Console.WriteLine(result3.Message);
         }
     }
 }
