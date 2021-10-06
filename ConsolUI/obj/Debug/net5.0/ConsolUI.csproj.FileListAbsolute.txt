@@ -138,3 +138,7 @@ C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\ConsolUI\bin\Debug\net5.0\D
 C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\ConsolUI\bin\Debug\net5.0\Entitiy.pdb
 C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\ConsolUI\obj\Debug\net5.0\ConsolUI.csproj.CopyComplete
 C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\ConsolUI\obj\Debug\net5.0\ConsolUI.genruntimeconfig.cache
+C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\ConsolUI\bin\Debug\net5.0\Autofac.dll
+C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\ConsolUI\bin\Debug\net5.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\ConsolUI\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\ConsolUI\bin\Debug\net5.0\FluentValidation.dll
