@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.InMemoryCarDal
 {
-    public class InMemoryCarDal : ICarDal
+    public class InMemoryCarDal 
     {
         List<Car> _cars;
         public InMemoryCarDal()
@@ -24,34 +24,6 @@ namespace DataAccess.Concrete.InMemoryCarDal
             };
         }
 
-        public void Add(Car entitiy)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Delete(Car entitiy)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Car Get(Expression<Func<Car, bool>> filter)
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<Car> GetAll(Expression<Func<Car, bool>> filter = null)
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<CarDetailDto> GetProductDetail()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Update(Car entitiy)
-        {
-            throw new NotImplementedException();
-        }
+      
     }
 }

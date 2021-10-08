@@ -21,6 +21,8 @@ namespace Business.Abstract
         IResult Update(Car car);
 
         public IDataResult<List<CarDetailDto>> GetCarDetails();
+        public IDataResult<List<CarImageDto>> GetCarImageById(int Id);
+       
 
     }
 }

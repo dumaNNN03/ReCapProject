@@ -61,5 +61,18 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetProductDetail(), Messages.Listed);
         }
+
+        public IDataResult<List<CarImageDto>> GetCarImageById(int Id)
+        {
+            var result = _carDal.GetCarImage(c=>c.CarId==Id);
+            if (result.Count > 0)
+            {
+                return new SuccessDataResult<List<CarImageDto>>(result,Messages.Listed);
+            }
+            result.Add(_carDal.GetDefualtImage(c => c.CarId == 0));
+            return new SuccessDataResult<List<CarImageDto>>(result,Messages.Listed);
+        }
+
+       
     }
 }

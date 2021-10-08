@@ -27,5 +27,27 @@ namespace DataAccess.Concrete.EntitiyFrameWork
                 return result.ToList();
             }
         }
+
+        public List<CarImageDto> GetCarImage(Expression<Func<CarImageDto, bool>> filter)
+        {
+            using (CarContext context = new())
+            {
+                var result = from c in context.Car
+                             join ci in context.CarImages
+                             on c.Id equals ci.CarId
+                             select new CarImageDto {  CarId = c.Id, ImagePath = ci.ImagePath };
+                return result.Where(filter).ToList();
+            }
+        }
+
+        public CarImageDto GetDefualtImage(Expression<Func<CarImageDto, bool>> filter)
+        {
+            using (CarContext context = new())
+            {
+                var result = from ci in context.CarImages                           
+                             select new CarImageDto { CarId = ci.CarId, ImagePath = ci.ImagePath };
+                return result.SingleOrDefault(filter);
+            }
+        }
     }
 }
