@@ -16,5 +16,7 @@ namespace Business.Constants
         public static string Listed = "Listeleme Başarılı";
         public static string SuccessRent = "Kiralama Başarılı";
         public static string ErrorRent = "Kiralama Başarısız";
+
+        public static string ToManyCarImage = "Araba Resimleri 5 Taneden Fazla Olamaz.";
     }
 }

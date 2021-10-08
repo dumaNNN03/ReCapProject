@@ -18,6 +18,7 @@ namespace Business.Concrete
         {
             _rentalDal = rentalDal;
         }
+        
         public IResult Add(Rental rental)
         {
             if (_rentalDal.Get(r=>r.CarId==rental.CarId) == null)

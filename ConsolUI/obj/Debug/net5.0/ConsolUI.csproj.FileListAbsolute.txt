@@ -142,3 +142,6 @@ C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\ConsolUI\bin\Debug\net5.0\A
 C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\ConsolUI\bin\Debug\net5.0\Autofac.Extras.DynamicProxy.dll
 C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\ConsolUI\bin\Debug\net5.0\Castle.Core.dll
 C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\ConsolUI\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\ConsolUI\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\ConsolUI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\ConsolUI\bin\Debug\net5.0\System.IO.Pipelines.dll
