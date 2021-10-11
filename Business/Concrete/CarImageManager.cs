@@ -3,6 +3,7 @@ using Business.BusinessAspect.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
+using Core.Aspects.Caching;
 using Core.Business;
 using Core.Utilities.Helpers;
 using Core.Utilities.Result;
@@ -25,6 +26,7 @@ namespace Business.Concrete
             _carImageDal = carImageDal;
         }
         [SecuredOperation("admin")]
+        [CacheRemoveAspect("ICarImageService.Get")]
         public IResult Add(IFormFile file,CarImage carImage)
         {
             var result = BusinessRules.Run(CheckImageRestriction(carImage.CarId));
@@ -44,6 +46,7 @@ namespace Business.Concrete
             return new SuccessResult(Messages.Added);
         }
         [SecuredOperation("admin")]
+        [CacheRemoveAspect("ICarImageService.Get")]
         public IResult Delete(CarImage carImage)
         {
             FileHelper.Delete(carImage.ImagePath);
@@ -51,21 +54,25 @@ namespace Business.Concrete
             return new SuccessResult(Messages.Deleted);
         }
         [SecuredOperation("user,admin")]
+        [CacheAspect]
         public IDataResult<List<CarImage>> GetAll()
         {
             return new SuccessDataResult<List<CarImage>>(_carImageDal.GetAll(),Messages.Listed);
         }
         [SecuredOperation("user,admin")]
+        [CacheAspect]
         public IDataResult<List<CarImage>> GetByCarId(int carId)
         {
             return new SuccessDataResult<List<CarImage>>(_carImageDal.GetAll(c=>c.CarId==carId),Messages.Listed);
         }
         [SecuredOperation("user,admin")]
+        [CacheAspect]
         public IDataResult<CarImage> GetById(int Id)
         {
             return new SuccessDataResult<CarImage>(_carImageDal.Get(c => c.Id == Id));
         }
         [SecuredOperation("admin")]
+        [CacheRemoveAspect("ICarImageService.Get")]
         public IResult Update(IFormFile file,CarImage carImage)
         {
             var result = FileHelper.Update(_carImageDal.Get(c => c.Id == carImage.Id).ImagePath, file);

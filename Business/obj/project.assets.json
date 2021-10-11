@@ -7778,11 +7778,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Business\\Business.csproj",
+      "projectUniqueName": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Business\\Business.csproj",
+      "projectPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Business\\Business.csproj",
       "packagesPath": "C:\\Users\\furkan3\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Business\\obj\\",
+      "outputPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7803,11 +7803,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj": {
-              "projectPath": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj"
+            "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj": {
+              "projectPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj"
             }
           }
         }

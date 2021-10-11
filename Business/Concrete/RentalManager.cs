@@ -1,6 +1,7 @@
 ﻿using Business.Abstract;
 using Business.BusinessAspect.Autofac;
 using Business.Constants;
+using Core.Aspects.Caching;
 using Core.Utilities.Result;
 using DataAccess.Abstract;
 using Entitiy.Concrete;
@@ -20,6 +21,7 @@ namespace Business.Concrete
             _rentalDal = rentalDal;
         }
         [SecuredOperation("user,admin")]
+        [CacheRemoveAspect("IRentalService.Get")]
         public IResult Add(Rental rental)
         {
             if (_rentalDal.Get(r=>r.CarId==rental.CarId) == null)
@@ -40,22 +42,26 @@ namespace Business.Concrete
             
         }
         [SecuredOperation("admin")]
+        [CacheRemoveAspect("IRentalService.Get")]
         public IResult Delete(Rental rental)
         {
             _rentalDal.Delete(rental);
             return new SuccessResult(Messages.Deleted);
         }
         [SecuredOperation("user,admin")]
+        [CacheAspect]
         public IDataResult<List<Rental>> GetAll()
         {
             return new SuccessDataResult<List<Rental>>(_rentalDal.GetAll(), Messages.Listed);
         }
         [SecuredOperation("user,admin")]
+        [CacheAspect]
         public IDataResult<Rental> GetById(int Id)
         {
             return new SuccessDataResult<Rental>(_rentalDal.Get(r => r.Id == Id), Messages.Listed);
         }
         [SecuredOperation("user,admin")]
+        [CacheRemoveAspect("IRentalService.Get")]
         public IResult Update(Rental rental)
         {
             _rentalDal.Update(rental);
