@@ -20,7 +20,6 @@ C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\WebAPI\bin\Debug\net5.0\Mic
 C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -73,3 +72,4 @@ C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\WebAPI\bin\Debug\net5.0\Flu
 C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\WebAPI\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\furkan3\Source\Repos\dumaNNN03\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

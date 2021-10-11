@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\ConsolUI\\ConsolUI.csproj": {}
+    "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\ConsolUI\\ConsolUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Business\\Business.csproj": {
+    "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\furkan3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Business\\obj\\",
+        "outputPath": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj": {
-                "projectPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj"
+              "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj": {
+                "projectPath": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj"
               }
             }
           }
@@ -55,6 +55,10 @@
               "target": "Package",
               "version": "[6.2.0, )"
             },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
             "Autofac.Extras.DynamicProxy": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -62,6 +66,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[10.3.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
@@ -83,14 +91,14 @@
         }
       }
     },
-    "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\ConsolUI\\ConsolUI.csproj": {
+    "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\ConsolUI\\ConsolUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\ConsolUI\\ConsolUI.csproj",
+        "projectUniqueName": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\ConsolUI\\ConsolUI.csproj",
         "projectName": "ConsolUI",
-        "projectPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\ConsolUI\\ConsolUI.csproj",
+        "projectPath": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\ConsolUI\\ConsolUI.csproj",
         "packagesPath": "C:\\Users\\furkan3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\ConsolUI\\obj\\",
+        "outputPath": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\ConsolUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -111,8 +119,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Business\\Business.csproj"
+              "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Business\\Business.csproj"
               }
             }
           }
@@ -145,14 +153,14 @@
         }
       }
     },
-    "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Core\\Core.csproj": {
+    "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\furkan3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -201,6 +209,10 @@
               "target": "Package",
               "version": "[10.3.3, )"
             },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.10, )"
@@ -208,6 +220,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -229,14 +245,14 @@
         }
       }
     },
-    "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\furkan3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -257,8 +273,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj": {
-                "projectPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj"
+              "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj": {
+                "projectPath": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj"
               }
             }
           }
@@ -297,14 +313,14 @@
         }
       }
     },
-    "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj": {
+    "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj",
+        "projectUniqueName": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj",
         "projectName": "Entitiy",
-        "projectPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj",
+        "projectPath": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Entitiy\\Entitiy.csproj",
         "packagesPath": "C:\\Users\\furkan3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Entitiy\\obj\\",
+        "outputPath": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Entitiy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -325,8 +341,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\furkan3\\Source\\Repos\\dumaNNN03\\ReCapProject\\Core\\Core.csproj"
+              "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\furkan3\\source\\repos\\dumaNNN03\\ReCapProject\\Core\\Core.csproj"
               }
             }
           }
